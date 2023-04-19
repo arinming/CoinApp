@@ -1,8 +1,9 @@
-package com.example.coco
+package com.example.coco.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import com.example.coco.R
 import timber.log.Timber
 
 // Splash 화면 만들기
@@ -11,6 +12,7 @@ import timber.log.Timber
 
 class IntroActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
         installSplashScreen()   // splashScreen 뜨게 하기
 
         super.onCreate(savedInstanceState)
