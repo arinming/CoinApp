@@ -50,7 +50,7 @@
             android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="bold"
-            android:text="선택 완료"
+            android:text="선택 완료"/>
 
 
     </LinearLayout>
